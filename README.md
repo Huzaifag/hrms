@@ -87,7 +87,7 @@ public function handle(Request $request, Closure $next): Response
         }
     }
 ```
-**Declare the middleware**
+**Declare the middleware bootstrap>app.php**
 ```php
 $middleware->alias([
             'admin' => AdminMiddleware::class,
